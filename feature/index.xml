@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on Join Social Fitness</title>
+    <link>http://example.org/feature/</link>
+    <description>Recent content in Features on Join Social Fitness</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Apr 2019 09:51:57 +0600</lastBuildDate>
+    
+	<atom:link href="http://example.org/feature/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Free Trail</title>
+      <link>http://example.org/feature/free-trail/</link>
+      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
+      
+      <guid>http://example.org/feature/free-trail/</guid>
+      <description>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna.</description>
+    </item>
+    
+    <item>
+      <title>No Setup</title>
+      <link>http://example.org/feature/no-setup/</link>
+      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
+      
+      <guid>http://example.org/feature/no-setup/</guid>
+      <description>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna.</description>
+    </item>
+    
+    <item>
+      <title>Optimized Data</title>
+      <link>http://example.org/feature/optimized-data/</link>
+      <pubDate>Wed, 10 Apr 2019 09:51:57 +0600</pubDate>
+      
+      <guid>http://example.org/feature/optimized-data/</guid>
+      <description>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna.</description>
+    </item>
+    
+  </channel>
+</rss>

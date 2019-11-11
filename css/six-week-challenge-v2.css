@@ -1,0 +1,187 @@
+body{
+	text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #2e2e2e;
+	color: #fff;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+@media (max-width: 768px) {
+	.header-image {
+		background-image: url("/images/six-week-challenge-v1/pushup768x810.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #999;
+		background-position: center;
+	}
+}
+
+@media (max-width: 1023px) {
+	.header-image {
+		background-image: url("/images/six-week-challenge-v1/pushup1024x810.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #999;
+		background-position: center;
+	}
+}
+
+@media (max-width: 1215px) {
+	.header-image {
+		background-image: url("/images/six-week-challenge-v1/pushup1280x720.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #999;
+		background-position: center;
+	}
+}
+
+@media (max-width: 1407px) {
+	.header-image {
+		background-image: url("/images/six-week-challenge-v1/pushup1440x810.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #999;
+		background-position: center;
+	}
+}
+
+@media (min-width: 1408px) {
+	.header-image {
+		background-image: url("/images/six-week-challenge-v1/pushup1600x900.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #999;
+	}
+}
+
+.red-button {
+	background-color: rgb(226, 41, 41);
+	color: #fff;
+	font-weight: 700;
+}
+
+.blue-button {
+	background-color: rgb(1, 116, 199);
+	color: #fff;
+	font-weight: 700;
+}
+
+.font12 {
+	font-size: 12px
+}
+.font14 {
+	font-size: 14px
+}
+.font16 {
+	font-size: 16px
+}
+.font18 {
+	font-size: 18px
+}
+.font20 {
+	font-size: 20px
+}
+.font24 {
+	font-size: 24px
+}
+.font30 {
+	font-size: 30px
+}
+.font36 {
+	font-size: 36px
+}
+.font48 {
+	font-size: 48px
+}
+.font60 {
+	font-size: 60px
+}
+.font72 {
+	font-size: 72px
+}
+
+.line-height-normal {
+	line-height: 1.2em;
+}
+
+.letter-spacing-1px {
+	letter-spacing: 1px;
+}
+
+/* INFUSIONSOFT */
+#tmp_headline1-80095{border: 1px solid #333333;}
+#tmp_input-73882,#tmp_input-99247,#tmp_input-64894{line-height:16px;}
+#tmp_button-49201{line-height:22px;}
+
+.infusion-field {
+  margin: 3px 5px;
+}
+.infusion-field-input {
+  font-size: 14px;
+  line-height: 25px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid rgb(1, 116, 199);
+}
+.infusion-submit {
+  margin: 3px 5px;
+}
+.infusion-submit button {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(1, 116, 199);
+  color: #FFF;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	position: relative;
+	padding-left: 1.5em;  /* space to preserve indentation on wrap */
+}
+li:before {
+	content: '';  /* placeholder for the SVG */
+	position: absolute;
+	left: 0;  /* place the SVG at the start of the padding */
+	width: 1em;
+	height: 1em;
+	background: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg fill='green' width='18' height='18' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>") no-repeat;
+}
